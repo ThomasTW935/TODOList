@@ -1,0 +1,28 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+.todolist{
+    width: 90%;
+    margin: 0 auto;
+}
+.stickyNav{
+    height: 10%;
+    padding: 3px;
+    position: sticky;
+    top:0;
+    background:blue;
+}
+.stickyNav__List{
+    background:red;
+}
+.content{
+}
+.content>section{
+    min-height:250px;
+}

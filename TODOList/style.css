@@ -7,19 +7,28 @@
 html,body{
     scroll-behavior: smooth;
 }
+a{
+    color:#111;
+    text-decoration:none;
+}
 .todolist{
     width: 90%;
     margin: 0 auto;
 }
 .stickyNav{
-    height: 10%;
-    padding: 3px;
+    height: 2rem;
     position: sticky;
     top:0;
-    background:blue;
+    background:#eeeeee;
 }
 .stickyNav__List{
-    background:red;
+    height:100%;
+    display:flex;    
+    justify-content: space-around;
+    align-items: center;
+}
+.stickyNav__Item{
+    list-style: none;
 }
 .content{
 }
